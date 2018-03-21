@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7622"
-	"mapversion" "76"
+	"mapversion" "77"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,12 +20,88 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "76"
+	"mapversion" "77"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_dust"
+	solid
+	{
+		"id" "15378"
+		side
+		{
+			"id" "3317"
+			"plane" "(-144 0 192) (112 0 192) (112 -16 192)"
+			"material" "BRICK/HR_BRICK/INFERNO/BRICK_G1_CHEAP"
+			"uaxis" "[1 0 0 0] 0.1"
+			"vaxis" "[0 -1 0 0] 0.1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3318"
+			"plane" "(-144 -16 160) (112 -16 160) (112 0 160)"
+			"material" "BRICK/HR_BRICK/INFERNO/BRICK_G1_CHEAP"
+			"uaxis" "[1 0 0 0] 0.1"
+			"vaxis" "[0 -1 0 0] 0.1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3319"
+			"plane" "(-144 0 192) (-144 -16 192) (-144 -16 160)"
+			"material" "BRICK/HR_BRICK/INFERNO/BRICK_G1_CHEAP"
+			"uaxis" "[0 1 0 0] 0.1"
+			"vaxis" "[0 0 -1 0] 0.1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3320"
+			"plane" "(112 0 160) (112 -16 160) (112 -16 192)"
+			"material" "BRICK/HR_BRICK/INFERNO/BRICK_G1_CHEAP"
+			"uaxis" "[0 1 0 0] 0.1"
+			"vaxis" "[0 0 -1 0] 0.1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3321"
+			"plane" "(112 0 192) (-144 0 192) (-144 0 160)"
+			"material" "BRICK/HR_BRICK/INFERNO/BRICK_G1_CHEAP"
+			"uaxis" "[1 0 0 0] 0.1"
+			"vaxis" "[0 0 -1 0] 0.1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3322"
+			"plane" "(112 -16 160) (-144 -16 160) (-144 -16 192)"
+			"material" "BRICK/HR_BRICK/INFERNO/BRICK_G1_CHEAP"
+			"uaxis" "[1 0 0 0] 0.1"
+			"vaxis" "[0 0 -1 0] 0.1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 137 190"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	solid
 	{
 		"id" "15031"
@@ -108,7 +184,7 @@ world
 		side
 		{
 			"id" "3257"
-			"plane" "(-416 288 192) (-144 288 192) (-144 -3.8147e-06 192)"
+			"plane" "(-416 0 192) (-416 288 192) (112 288 192)"
 			"material" "BRICK/HR_BRICK/INFERNO/FLAGSTONE_A"
 			"uaxis" "[1 0 0 0] 0.1"
 			"vaxis" "[0 -1 0 0] 0.1"
@@ -119,7 +195,7 @@ world
 		side
 		{
 			"id" "3258"
-			"plane" "(-416 -3.8147e-06 160) (-144 -3.8147e-06 160) (-144 288 160)"
+			"plane" "(-416 288 160) (-416 0 160) (112 0 160)"
 			"material" "BRICK/HR_BRICK/INFERNO/BRICK_G1_CHEAP"
 			"uaxis" "[1 0 0 0] 0.1"
 			"vaxis" "[0 -1 0 0] 0.1"
@@ -130,7 +206,7 @@ world
 		side
 		{
 			"id" "3259"
-			"plane" "(-416 288 192) (-416 -3.8147e-06 192) (-416 -3.8147e-06 160)"
+			"plane" "(-416 0 160) (-416 288 160) (-416 288 192)"
 			"material" "BRICK/HR_BRICK/INFERNO/BRICK_G1_CHEAP"
 			"uaxis" "[0 1 0 0] 0.1"
 			"vaxis" "[0 0 -1 0] 0.1"
@@ -141,7 +217,7 @@ world
 		side
 		{
 			"id" "3260"
-			"plane" "(-144 288 160) (-144 -3.8147e-06 160) (-144 -3.8147e-06 192)"
+			"plane" "(112 288 160) (112 0 160) (112 0 192)"
 			"material" "BRICK/HR_BRICK/INFERNO/BRICK_G1_CHEAP"
 			"uaxis" "[0 1 0 0] 0.1"
 			"vaxis" "[0 0 -1 0] 0.1"
@@ -152,7 +228,7 @@ world
 		side
 		{
 			"id" "3261"
-			"plane" "(-144 288 192) (-416 288 192) (-416 288 160)"
+			"plane" "(-416 288 160) (112 288 160) (112 288 192)"
 			"material" "BRICK/HR_BRICK/INFERNO/BRICK_G1_CHEAP"
 			"uaxis" "[1 0 0 0] 0.1"
 			"vaxis" "[0 0 -1 0] 0.1"
@@ -163,8 +239,8 @@ world
 		side
 		{
 			"id" "3262"
-			"plane" "(-144 -3.8147e-06 160) (-416 -3.8147e-06 160) (-416 -3.8147e-06 192)"
-			"material" "BRICK/HR_BRICK/INFERNO/FLAGSTONE_D"
+			"plane" "(112 0 160) (-416 0 160) (-416 0 192)"
+			"material" "BRICK/HR_BRICK/INFERNO/BRICK_G1_CHEAP"
 			"uaxis" "[1 0 0 0] 0.1"
 			"vaxis" "[0 0 -1 0] 0.1"
 			"rotation" "0"
@@ -336,7 +412,7 @@ world
 		side
 		{
 			"id" "3316"
-			"plane" "(-144 448 0) (-144 512 0) (-400 512 -1.52588e-05)"
+			"plane" "(-416 512 0) (-416 448 0) (-144 448 0)"
 			"material" "BRICK/HR_BRICK/INFERNO/BRICK_G1_CHEAP"
 			"uaxis" "[-1 0 0 -928] 0.1"
 			"vaxis" "[0 -1 0 -896] 0.1"
@@ -347,7 +423,7 @@ world
 		side
 		{
 			"id" "3315"
-			"plane" "(-144 320 191) (-144 256 191) (-400 256 191)"
+			"plane" "(-416 256 192) (-416 320 192) (-144 320 192)"
 			"material" "BRICK/HR_BRICK/INFERNO/FLAGSTONE_A"
 			"uaxis" "[-1 0 0 -928] 0.1"
 			"vaxis" "[0 -1 0 -896] 0.1"
@@ -358,7 +434,7 @@ world
 		side
 		{
 			"id" "3314"
-			"plane" "(-144 256 191) (-144 320 191) (-144 512 0)"
+			"plane" "(-144 512 0) (-144 448 0) (-144 256 192)"
 			"material" "BRICK/HR_BRICK/INFERNO/BRICK_G1_CHEAP"
 			"uaxis" "[0 1 0 896] 0.1"
 			"vaxis" "[0 0 1 -886] 0.1"
@@ -369,7 +445,7 @@ world
 		side
 		{
 			"id" "3313"
-			"plane" "(-400 320 191) (-400 256 191) (-400 448 -1.52588e-05)"
+			"plane" "(-416 448 0) (-416 512 0) (-416 320 192)"
 			"material" "BRICK/HR_BRICK/INFERNO/BRICK_G1_CHEAP"
 			"uaxis" "[0 1 0 896] 0.1"
 			"vaxis" "[0 0 1 -886] 0.1"
@@ -380,7 +456,7 @@ world
 		side
 		{
 			"id" "3312"
-			"plane" "(-400 256 191) (-144 256 191) (-144 448 0)"
+			"plane" "(-144 448 0) (-416 448 0) (-416 256 192)"
 			"material" "BRICK/HR_BRICK/INFERNO/FLAGSTONE_A"
 			"uaxis" "[-1 0 0 -928] 0.1"
 			"vaxis" "[0 -1 0 -896] 0.1"
@@ -391,7 +467,7 @@ world
 		side
 		{
 			"id" "3311"
-			"plane" "(-400 512 -1.52588e-05) (-144 512 0) (-144 320 191)"
+			"plane" "(-144 320 192) (-416 320 192) (-416 512 0)"
 			"material" "BRICK/HR_BRICK/INFERNO/FLAGSTONE_A"
 			"uaxis" "[-1 0 0 -928] 0.1"
 			"vaxis" "[0 -1 0 -896] 0.1"
@@ -20304,7 +20380,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "-144 1056 1"
+	"origin" "-132 1055 1"
 	editor
 	{
 		"color" "255 255 0"
