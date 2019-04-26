@@ -1118,3 +1118,1229 @@ Total triangle count: 6824
 Writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
 MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
 14 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.vmf
+Map revision 94
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (113042 bytes)
+Error! To use model "models/destruction_tanker/destruction_tanker_cab.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/destruction_tanker/destruction_tanker_cab.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 367 texinfos to 262
+Reduced 27 texdatas to 26 (612 bytes to 586)
+Writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+reading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.prt
+ 913 portalclusters
+2829 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1177 visible clusters (0.00%)
+Total clusters visible: 250808
+Average clusters visible: 274
+Building PAS...
+Average clusters audible: 581
+visdatasize:205013  compressed from 219120
+writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+1 minute, 7 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+Loaded alpha texture materials\Tools\toolsinvisible.vtf
+2691 faces
+3009286 square feet [433337280.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2691 patches before subdivision
+59085 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3089529, max 765
+transfer lists:  23.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(183483, 166048, 149792)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(29942, 24381, 19829)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(5269, 3834, 2829)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(968, 622, 416)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(186, 104, 63)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(37, 18, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(8, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0106 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes                315/8192         3780/98304    ( 3.8%) 
+brushsides            1996/81920       15968/655360   ( 2.4%) 
+planes                 890/65536       17800/1310720  ( 1.4%) 
+vertexes              3754/65536       45048/786432   ( 5.7%) 
+nodes                 1778/65536       56896/2097152  ( 2.7%) 
+texinfos               262/12288       18864/884736   ( 2.1%) 
+texdata                 26/4096          832/131072   ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2691/65536      150696/3670016  ( 4.1%) 
+hdr faces             2691/65536      150696/3670016  ( 4.1%) 
+origfaces             1090/65536       61040/3670016  ( 1.7%) 
+facebrushes            197/0             394/0        ( 0.0%) 
+facebrushlists        2691/0           10764/0        ( 0.0%) 
+leaves                1792/65536       57344/2097152  ( 2.7%) 
+leaffaces             3074/65536        6148/131072   ( 4.7%) 
+leafbrushes            961/65536        1922/131072   ( 1.5%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            17138/512000      68552/2048000  ( 3.3%) 
+edges                 9440/256000      37760/1024000  ( 3.7%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          2/8192          200/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            263/32768        2630/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3858/65536        7716/131072   ( 5.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/1024          704/360448   ( 0.2%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     3631788/0        ( 0.0%) 
+visdata               [variable]      205013/16777216 ( 1.2%) 
+entdata               [variable]        8411/393216   ( 2.1%) 
+LDR ambient table     1792/65536        7168/262144   ( 2.7%) 
+HDR ambient table     1792/65536        7168/262144   ( 2.7%) 
+LDR leaf ambient      1792/65536       50176/1835008  ( 2.7%) 
+HDR leaf ambient     10695/65536      299460/1835008  (16.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3812     ( 0.0%) 
+pakfile               [variable]     1182092/0        ( 0.0%) 
+physics               [variable]      113042/4194304  ( 2.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 7411
+Writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+15 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.vmf
+Map revision 94
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (113042 bytes)
+Error! To use model "models/destruction_tanker/destruction_tanker_cab.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/destruction_tanker/destruction_tanker_cab.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 367 texinfos to 262
+Reduced 27 texdatas to 26 (612 bytes to 586)
+Writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+reading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.prt
+ 913 portalclusters
+2829 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1177 visible clusters (0.00%)
+Total clusters visible: 250808
+Average clusters visible: 274
+Building PAS...
+Average clusters audible: 581
+visdatasize:205013  compressed from 219120
+writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+1 minute, 2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+Loaded alpha texture materials\Tools\toolsinvisible.vtf
+2691 faces
+3009286 square feet [433337280.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2691 patches before subdivision
+59085 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3089529, max 765
+transfer lists:  23.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(183481, 166047, 149791)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(29942, 24381, 19829)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(5269, 3834, 2829)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(968, 622, 416)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(186, 104, 63)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(37, 18, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(8, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0100 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes                315/8192         3780/98304    ( 3.8%) 
+brushsides            1996/81920       15968/655360   ( 2.4%) 
+planes                 890/65536       17800/1310720  ( 1.4%) 
+vertexes              3754/65536       45048/786432   ( 5.7%) 
+nodes                 1778/65536       56896/2097152  ( 2.7%) 
+texinfos               262/12288       18864/884736   ( 2.1%) 
+texdata                 26/4096          832/131072   ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2691/65536      150696/3670016  ( 4.1%) 
+hdr faces             2691/65536      150696/3670016  ( 4.1%) 
+origfaces             1090/65536       61040/3670016  ( 1.7%) 
+facebrushes            197/0             394/0        ( 0.0%) 
+facebrushlists        2691/0           10764/0        ( 0.0%) 
+leaves                1792/65536       57344/2097152  ( 2.7%) 
+leaffaces             3074/65536        6148/131072   ( 4.7%) 
+leafbrushes            961/65536        1922/131072   ( 1.5%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            17138/512000      68552/2048000  ( 3.3%) 
+edges                 9440/256000      37760/1024000  ( 3.7%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          2/8192          200/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            263/32768        2630/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3858/65536        7716/131072   ( 5.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/1024          704/360448   ( 0.2%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     3631788/0        ( 0.0%) 
+visdata               [variable]      205013/16777216 ( 1.2%) 
+entdata               [variable]        8411/393216   ( 2.1%) 
+LDR ambient table     1792/65536        7168/262144   ( 2.7%) 
+HDR ambient table     1792/65536        7168/262144   ( 2.7%) 
+LDR leaf ambient      1792/65536       50176/1835008  ( 2.7%) 
+HDR leaf ambient     10695/65536      299460/1835008  (16.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3812     ( 0.0%) 
+pakfile               [variable]     1182092/0        ( 0.0%) 
+physics               [variable]      113042/4194304  ( 2.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 7411
+Writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+14 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.vmf
+Map revision 95
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (113042 bytes)
+Error! To use model "models/destruction_tanker/destruction_tanker_cab.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/destruction_tanker/destruction_tanker_cab.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 367 texinfos to 257
+Reduced 27 texdatas to 21 (612 bytes to 496)
+Writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+reading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.prt
+ 703 portalclusters
+2241 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 997 visible clusters (0.00%)
+Total clusters visible: 251884
+Average clusters visible: 358
+Building PAS...
+Average clusters audible: 702
+visdatasize:125724  compressed from 123728
+writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+1 minute, 16 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+Loaded alpha texture materials\Tools\toolsinvisible.vtf
+2355 faces
+997257 square feet [143605088.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2355 patches before subdivision
+59213 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3131041, max 838
+transfer lists:  23.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(74331, 66745, 59353)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12120, 9914, 7975)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2130, 1573, 1139)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(393, 262, 173)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(75, 45, 27)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(15, 8, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0099 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes                315/8192         3780/98304    ( 3.8%) 
+brushsides            1996/81920       15968/655360   ( 2.4%) 
+planes                 890/65536       17800/1310720  ( 1.4%) 
+vertexes              3378/65536       40536/786432   ( 5.2%) 
+nodes                 1379/65536       44128/2097152  ( 2.1%) 
+texinfos               257/12288       18504/884736   ( 2.1%) 
+texdata                 21/4096          672/131072   ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2355/65536      131880/3670016  ( 3.6%) 
+hdr faces             2355/65536      131880/3670016  ( 3.6%) 
+origfaces             1071/65536       59976/3670016  ( 1.6%) 
+facebrushes            182/0             364/0        ( 0.0%) 
+facebrushlists        2355/0            9420/0        ( 0.0%) 
+leaves                1393/65536       44576/2097152  ( 2.1%) 
+leaffaces             2709/65536        5418/131072   ( 4.1%) 
+leafbrushes            980/65536        1960/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            15662/512000      62648/2048000  ( 3.1%) 
+edges                 8689/256000      34756/1024000  ( 3.4%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          2/8192          200/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            262/32768        2620/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3843/65536        7686/131072   ( 5.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/1024          704/360448   ( 0.2%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     3633656/0        ( 0.0%) 
+visdata               [variable]      125724/16777216 ( 0.7%) 
+entdata               [variable]        8406/393216   ( 2.1%) 
+LDR ambient table     1393/65536        5572/262144   ( 2.1%) 
+HDR ambient table     1393/65536        5572/262144   ( 2.1%) 
+LDR leaf ambient      1393/65536       39004/1835008  ( 2.1%) 
+HDR leaf ambient      6845/65536      191660/1835008  (10.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3810     ( 0.0%) 
+pakfile               [variable]     1182092/0        ( 0.0%) 
+physics               [variable]      113042/4194304  ( 2.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 6683
+Writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+15 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.vmf
+Map revision 95
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (113042 bytes)
+Error! To use model "models/destruction_tanker/destruction_tanker_cab.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/destruction_tanker/destruction_tanker_cab.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 367 texinfos to 257
+Reduced 27 texdatas to 21 (612 bytes to 496)
+Writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+reading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.prt
+ 703 portalclusters
+2241 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 997 visible clusters (0.00%)
+Total clusters visible: 251884
+Average clusters visible: 358
+Building PAS...
+Average clusters audible: 702
+visdatasize:125724  compressed from 123728
+writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+1 minute, 22 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+Loaded alpha texture materials\Tools\toolsinvisible.vtf
+2355 faces
+997257 square feet [143605088.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2355 patches before subdivision
+59213 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3131041, max 838
+transfer lists:  23.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(74332, 66745, 59353)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12120, 9914, 7975)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2130, 1573, 1139)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(393, 262, 173)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(75, 45, 27)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(15, 8, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0100 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes                315/8192         3780/98304    ( 3.8%) 
+brushsides            1996/81920       15968/655360   ( 2.4%) 
+planes                 890/65536       17800/1310720  ( 1.4%) 
+vertexes              3378/65536       40536/786432   ( 5.2%) 
+nodes                 1379/65536       44128/2097152  ( 2.1%) 
+texinfos               257/12288       18504/884736   ( 2.1%) 
+texdata                 21/4096          672/131072   ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2355/65536      131880/3670016  ( 3.6%) 
+hdr faces             2355/65536      131880/3670016  ( 3.6%) 
+origfaces             1071/65536       59976/3670016  ( 1.6%) 
+facebrushes            182/0             364/0        ( 0.0%) 
+facebrushlists        2355/0            9420/0        ( 0.0%) 
+leaves                1393/65536       44576/2097152  ( 2.1%) 
+leaffaces             2709/65536        5418/131072   ( 4.1%) 
+leafbrushes            980/65536        1960/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            15662/512000      62648/2048000  ( 3.1%) 
+edges                 8689/256000      34756/1024000  ( 3.4%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          2/8192          200/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            262/32768        2620/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3843/65536        7686/131072   ( 5.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/1024          704/360448   ( 0.2%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     3633656/0        ( 0.0%) 
+visdata               [variable]      125724/16777216 ( 0.7%) 
+entdata               [variable]        8406/393216   ( 2.1%) 
+LDR ambient table     1393/65536        5572/262144   ( 2.1%) 
+HDR ambient table     1393/65536        5572/262144   ( 2.1%) 
+LDR leaf ambient      1393/65536       39004/1835008  ( 2.1%) 
+HDR leaf ambient      6845/65536      191660/1835008  (10.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3810     ( 0.0%) 
+pakfile               [variable]     1182092/0        ( 0.0%) 
+physics               [variable]      113042/4194304  ( 2.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 6683
+Writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+14 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.vmf
+Map revision 97
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (113042 bytes)
+Error! To use model "models/destruction_tanker/destruction_tanker_cab.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/destruction_tanker/destruction_tanker_cab.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 367 texinfos to 257
+Reduced 27 texdatas to 21 (612 bytes to 496)
+Writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+1 second elapsed
+
+
+
+8 threads
+reading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+reading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.prt
+ 703 portalclusters
+2241 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 998 visible clusters (0.00%)
+Total clusters visible: 251885
+Average clusters visible: 358
+Building PAS...
+Average clusters audible: 702
+visdatasize:125724  compressed from 123728
+writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+1 minute, 13 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+Loaded alpha texture materials\Tools\toolsinvisible.vtf
+2355 faces
+997257 square feet [143605088.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2355 patches before subdivision
+59213 patches after subdivision
+9 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3127225, max 838
+transfer lists:  23.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(74314, 66727, 59334)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12113, 9908, 7970)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2128, 1571, 1138)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(392, 262, 172)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(74, 45, 27)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(15, 8, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0100 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes                315/8192         3780/98304    ( 3.8%) 
+brushsides            1996/81920       15968/655360   ( 2.4%) 
+planes                 890/65536       17800/1310720  ( 1.4%) 
+vertexes              3378/65536       40536/786432   ( 5.2%) 
+nodes                 1379/65536       44128/2097152  ( 2.1%) 
+texinfos               257/12288       18504/884736   ( 2.1%) 
+texdata                 21/4096          672/131072   ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2355/65536      131880/3670016  ( 3.6%) 
+hdr faces             2355/65536      131880/3670016  ( 3.6%) 
+origfaces             1071/65536       59976/3670016  ( 1.6%) 
+facebrushes            182/0             364/0        ( 0.0%) 
+facebrushlists        2355/0            9420/0        ( 0.0%) 
+leaves                1393/65536       44576/2097152  ( 2.1%) 
+leaffaces             2709/65536        5418/131072   ( 4.1%) 
+leafbrushes            980/65536        1960/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            15662/512000      62648/2048000  ( 3.1%) 
+edges                 8689/256000      34756/1024000  ( 3.4%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          9/8192          900/819200   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            262/32768        2620/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3843/65536        7686/131072   ( 5.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/1024          704/360448   ( 0.2%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     3633656/0        ( 0.0%) 
+visdata               [variable]      125724/16777216 ( 0.7%) 
+entdata               [variable]       10757/393216   ( 2.7%) 
+LDR ambient table     1393/65536        5572/262144   ( 2.1%) 
+HDR ambient table     1393/65536        5572/262144   ( 2.1%) 
+LDR leaf ambient      1393/65536       39004/1835008  ( 2.1%) 
+HDR leaf ambient      6843/65536      191604/1835008  (10.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4518     ( 0.0%) 
+pakfile               [variable]     1369174/0        ( 0.0%) 
+physics               [variable]      113042/4194304  ( 2.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 6683
+Writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+17 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.vmf
+Map revision 98
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (113042 bytes)
+Error! To use model "models/destruction_tanker/destruction_tanker_cab.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/destruction_tanker/destruction_tanker_cab.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 367 texinfos to 257
+Reduced 27 texdatas to 21 (612 bytes to 496)
+Writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+reading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.prt
+ 703 portalclusters
+2241 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 997 visible clusters (0.00%)
+Total clusters visible: 251884
+Average clusters visible: 358
+Building PAS...
+Average clusters audible: 702
+visdatasize:125724  compressed from 123728
+writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+1 minute, 10 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+Loaded alpha texture materials\Tools\toolsinvisible.vtf
+2355 faces
+997257 square feet [143605088.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2355 patches before subdivision
+59213 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3130777, max 838
+transfer lists:  23.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(74334, 66747, 59355)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12120, 9914, 7975)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2130, 1573, 1139)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(393, 262, 173)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(75, 45, 27)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(15, 8, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0101 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes                315/8192         3780/98304    ( 3.8%) 
+brushsides            1996/81920       15968/655360   ( 2.4%) 
+planes                 890/65536       17800/1310720  ( 1.4%) 
+vertexes              3378/65536       40536/786432   ( 5.2%) 
+nodes                 1379/65536       44128/2097152  ( 2.1%) 
+texinfos               257/12288       18504/884736   ( 2.1%) 
+texdata                 21/4096          672/131072   ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2355/65536      131880/3670016  ( 3.6%) 
+hdr faces             2355/65536      131880/3670016  ( 3.6%) 
+origfaces             1071/65536       59976/3670016  ( 1.6%) 
+facebrushes            182/0             364/0        ( 0.0%) 
+facebrushlists        2355/0            9420/0        ( 0.0%) 
+leaves                1393/65536       44576/2097152  ( 2.1%) 
+leaffaces             2709/65536        5418/131072   ( 4.1%) 
+leafbrushes            980/65536        1960/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            15662/512000      62648/2048000  ( 3.1%) 
+edges                 8689/256000      34756/1024000  ( 3.4%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          3/8192          300/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            262/32768        2620/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3843/65536        7686/131072   ( 5.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/1024          704/360448   ( 0.2%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     3633656/0        ( 0.0%) 
+visdata               [variable]      125724/16777216 ( 0.7%) 
+entdata               [variable]        8729/393216   ( 2.2%) 
+LDR ambient table     1393/65536        5572/262144   ( 2.1%) 
+HDR ambient table     1393/65536        5572/262144   ( 2.1%) 
+LDR leaf ambient      1393/65536       39004/1835008  ( 2.1%) 
+HDR leaf ambient      6845/65536      191660/1835008  (10.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4022     ( 0.0%) 
+pakfile               [variable]     1184754/0        ( 0.0%) 
+physics               [variable]      113042/4194304  ( 2.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 6683
+Writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+13 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.vmf
+Map revision 99
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (113042 bytes)
+Error! To use model "models/destruction_tanker/destruction_tanker_cab.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/destruction_tanker/destruction_tanker_cab.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 367 texinfos to 257
+Reduced 27 texdatas to 21 (612 bytes to 496)
+Writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+reading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.prt
+ 703 portalclusters
+2241 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 994 visible clusters (0.00%)
+Total clusters visible: 251881
+Average clusters visible: 358
+Building PAS...
+Average clusters audible: 702
+visdatasize:125724  compressed from 123728
+writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+1 minute, 15 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+Loaded alpha texture materials\Tools\toolsinvisible.vtf
+2355 faces
+997257 square feet [143605088.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2355 patches before subdivision
+59213 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3130777, max 838
+transfer lists:  23.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(76328, 68545, 60964)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12558, 10272, 8263)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2226, 1644, 1191)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(414, 277, 182)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(79, 48, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(16, 8, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0102 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes                315/8192         3780/98304    ( 3.8%) 
+brushsides            1996/81920       15968/655360   ( 2.4%) 
+planes                 890/65536       17800/1310720  ( 1.4%) 
+vertexes              3378/65536       40536/786432   ( 5.2%) 
+nodes                 1379/65536       44128/2097152  ( 2.1%) 
+texinfos               257/12288       18504/884736   ( 2.1%) 
+texdata                 21/4096          672/131072   ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2355/65536      131880/3670016  ( 3.6%) 
+hdr faces             2355/65536      131880/3670016  ( 3.6%) 
+origfaces             1071/65536       59976/3670016  ( 1.6%) 
+facebrushes            182/0             364/0        ( 0.0%) 
+facebrushlists        2355/0            9420/0        ( 0.0%) 
+leaves                1393/65536       44576/2097152  ( 2.1%) 
+leaffaces             2709/65536        5418/131072   ( 4.1%) 
+leafbrushes            980/65536        1960/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            15662/512000      62648/2048000  ( 3.1%) 
+edges                 8689/256000      34756/1024000  ( 3.4%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          3/8192          300/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            262/32768        2620/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3843/65536        7686/131072   ( 5.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/1024          704/360448   ( 0.2%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     3633656/0        ( 0.0%) 
+visdata               [variable]      125724/16777216 ( 0.7%) 
+entdata               [variable]        8730/393216   ( 2.2%) 
+LDR ambient table     1393/65536        5572/262144   ( 2.1%) 
+HDR ambient table     1393/65536        5572/262144   ( 2.1%) 
+LDR leaf ambient      1393/65536       39004/1835008  ( 2.1%) 
+HDR leaf ambient      6845/65536      191660/1835008  (10.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4022     ( 0.0%) 
+pakfile               [variable]     1184754/0        ( 0.0%) 
+physics               [variable]      113042/4194304  ( 2.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 6683
+Writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+13 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.vmf
+Map revision 100
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (113042 bytes)
+Error! To use model "models/destruction_tanker/destruction_tanker_cab.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/destruction_tanker/destruction_tanker_cab.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 367 texinfos to 257
+Reduced 27 texdatas to 21 (612 bytes to 496)
+Writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+reading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.prt
+ 703 portalclusters
+2241 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 997 visible clusters (0.00%)
+Total clusters visible: 251884
+Average clusters visible: 358
+Building PAS...
+Average clusters audible: 702
+visdatasize:125724  compressed from 123728
+writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+1 minute, 12 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+Loaded alpha texture materials\Tools\toolsinvisible.vtf
+2355 faces
+997257 square feet [143605088.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2355 patches before subdivision
+59213 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3130777, max 838
+transfer lists:  23.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(75201, 67533, 60061)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12310, 10070, 8100)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2172, 1604, 1162)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(402, 269, 177)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(77, 46, 27)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(15, 8, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0097 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes                315/8192         3780/98304    ( 3.8%) 
+brushsides            1996/81920       15968/655360   ( 2.4%) 
+planes                 890/65536       17800/1310720  ( 1.4%) 
+vertexes              3378/65536       40536/786432   ( 5.2%) 
+nodes                 1379/65536       44128/2097152  ( 2.1%) 
+texinfos               257/12288       18504/884736   ( 2.1%) 
+texdata                 21/4096          672/131072   ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2355/65536      131880/3670016  ( 3.6%) 
+hdr faces             2355/65536      131880/3670016  ( 3.6%) 
+origfaces             1071/65536       59976/3670016  ( 1.6%) 
+facebrushes            182/0             364/0        ( 0.0%) 
+facebrushlists        2355/0            9420/0        ( 0.0%) 
+leaves                1393/65536       44576/2097152  ( 2.1%) 
+leaffaces             2709/65536        5418/131072   ( 4.1%) 
+leafbrushes            980/65536        1960/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            15662/512000      62648/2048000  ( 3.1%) 
+edges                 8689/256000      34756/1024000  ( 3.4%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          3/8192          300/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            262/32768        2620/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3843/65536        7686/131072   ( 5.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/1024          704/360448   ( 0.2%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     3633656/0        ( 0.0%) 
+visdata               [variable]      125724/16777216 ( 0.7%) 
+entdata               [variable]        8731/393216   ( 2.2%) 
+LDR ambient table     1393/65536        5572/262144   ( 2.1%) 
+HDR ambient table     1393/65536        5572/262144   ( 2.1%) 
+LDR leaf ambient      1393/65536       39004/1835008  ( 2.1%) 
+HDR leaf ambient      6856/65536      191968/1835008  (10.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4022     ( 0.0%) 
+pakfile               [variable]     1184754/0        ( 0.0%) 
+physics               [variable]      113042/4194304  ( 2.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 6683
+Writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+13 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.vmf
+Map revision 101
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (113042 bytes)
+Error! To use model "models/destruction_tanker/destruction_tanker_cab.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/destruction_tanker/destruction_tanker_cab.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 367 texinfos to 254
+Reduced 27 texdatas to 21 (612 bytes to 496)
+Writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+reading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.prt
+ 699 portalclusters
+2234 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 965 visible clusters (0.00%)
+Total clusters visible: 250088
+Average clusters visible: 357
+Building PAS...
+Average clusters audible: 698
+visdatasize:125296  compressed from 123024
+writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+1 minute, 15 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+Loaded alpha texture materials\Tools\toolsinvisible.vtf
+2343 faces
+997143 square feet [143588672.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2343 patches before subdivision
+59187 patches after subdivision
+18 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3126097, max 837
+transfer lists:  23.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(86702, 77860, 69301)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(14850, 12122, 9756)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2741, 2020, 1466)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(530, 353, 234)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(106, 64, 38)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(22, 12, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(5, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0100 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes                315/8192         3780/98304    ( 3.8%) 
+brushsides            1996/81920       15968/655360   ( 2.4%) 
+planes                 890/65536       17800/1310720  ( 1.4%) 
+vertexes              3362/65536       40344/786432   ( 5.1%) 
+nodes                 1369/65536       43808/2097152  ( 2.1%) 
+texinfos               254/12288       18288/884736   ( 2.1%) 
+texdata                 21/4096          672/131072   ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2343/65536      131208/3670016  ( 3.6%) 
+hdr faces             2343/65536      131208/3670016  ( 3.6%) 
+origfaces             1064/65536       59584/3670016  ( 1.6%) 
+facebrushes            180/0             360/0        ( 0.0%) 
+facebrushlists        2343/0            9372/0        ( 0.0%) 
+leaves                1383/65536       44256/2097152  ( 2.1%) 
+leaffaces             2696/65536        5392/131072   ( 4.1%) 
+leafbrushes            986/65536        1972/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            15577/512000      62308/2048000  ( 3.0%) 
+edges                 8643/256000      34572/1024000  ( 3.4%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights         18/8192         1800/819200   ( 0.2%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            261/32768        2610/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3840/65536        7680/131072   ( 5.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/1024          704/360448   ( 0.2%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     3632432/0        ( 0.0%) 
+visdata               [variable]      125296/16777216 ( 0.7%) 
+entdata               [variable]       13783/393216   ( 3.5%) 
+LDR ambient table     1383/65536        5532/262144   ( 2.1%) 
+HDR ambient table     1383/65536        5532/262144   ( 2.1%) 
+LDR leaf ambient      1383/65536       38724/1835008  ( 2.1%) 
+HDR leaf ambient      6875/65536      192500/1835008  (10.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5252     ( 0.0%) 
+pakfile               [variable]     1224684/0        ( 0.0%) 
+physics               [variable]      113042/4194304  ( 2.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7e
+
+Total triangle count: 6648
+Writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+20 seconds elapsed
