@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8075"
-	"mapversion" "101"
+	"mapversion" "102"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "101"
+	"mapversion" "102"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -10441,7 +10441,7 @@ world
 		side
 		{
 			"id" "2640"
-			"plane" "(-720 -3648 0) (-720 -2048 0) (304 -2048 0)"
+			"plane" "(-976 -3648 0) (-976 -2048 0) (304 -2048 0)"
 			"material" "BRICK/HR_BRICK/INFERNO/FLAGSTONE_D"
 			"uaxis" "[1 0 0 160] 0.1"
 			"vaxis" "[0 -1 0 0] 0.1"
@@ -10452,7 +10452,7 @@ world
 		side
 		{
 			"id" "2641"
-			"plane" "(-720 -2048 -32) (-720 -3648 -32) (304 -3648 -32)"
+			"plane" "(-976 -2048 -32) (-976 -3648 -32) (304 -3648 -32)"
 			"material" "BRICK/HR_BRICK/INFERNO/FLAGSTONE_D"
 			"uaxis" "[1 0 0 160] 0.1"
 			"vaxis" "[0 -1 0 0] 0.1"
@@ -10463,7 +10463,7 @@ world
 		side
 		{
 			"id" "2642"
-			"plane" "(-720 -3648 -32) (-720 -2048 -32) (-720 -2048 0)"
+			"plane" "(-976 -3648 -32) (-976 -2048 -32) (-976 -2048 0)"
 			"material" "BRICK/HR_BRICK/INFERNO/FLAGSTONE_D"
 			"uaxis" "[0 1 0 0] 0.1"
 			"vaxis" "[0 0 -1 0] 0.1"
@@ -10485,7 +10485,7 @@ world
 		side
 		{
 			"id" "2644"
-			"plane" "(-720 -2048 -32) (304 -2048 -32) (304 -2048 0)"
+			"plane" "(-976 -2048 -32) (304 -2048 -32) (304 -2048 0)"
 			"material" "BRICK/HR_BRICK/INFERNO/FLAGSTONE_D"
 			"uaxis" "[1 0 0 160] 0.1"
 			"vaxis" "[0 0 -1 0] 0.1"
@@ -10496,7 +10496,7 @@ world
 		side
 		{
 			"id" "2645"
-			"plane" "(304 -3648 -32) (-720 -3648 -32) (-720 -3648 0)"
+			"plane" "(304 -3648 -32) (-976 -3648 -32) (-976 -3648 0)"
 			"material" "BRICK/HR_BRICK/INFERNO/FLAGSTONE_D"
 			"uaxis" "[1 0 0 160] 0.1"
 			"vaxis" "[0 0 -1 0] 0.1"
@@ -11667,8 +11667,8 @@ world
 		"id" "7009"
 		side
 		{
-			"id" "2756"
-			"plane" "(-976 -3648 267.148) (-976 -2304 267.148) (-336 -2304 267.148)"
+			"id" "4511"
+			"plane" "(-976 -2816 267.148) (-976 -2304 267.148) (-336 -2304 267.148)"
 			"material" "BRICK/HR_BRICK/INFERNO/BRICK_G1_CHEAP"
 			"uaxis" "[1 0 0 160] 0.1"
 			"vaxis" "[0 -1 0 0] 0.1"
@@ -11678,8 +11678,8 @@ world
 		}
 		side
 		{
-			"id" "2757"
-			"plane" "(-976 -2304 0.147751) (-976 -3648 0.147751) (-336 -3648 0.147751)"
+			"id" "4510"
+			"plane" "(-976 -2304 0.147751) (-976 -2816 0.147751) (-336 -2816 0.147751)"
 			"material" "BRICK/HR_BRICK/INFERNO/BRICK_G1_CHEAP"
 			"uaxis" "[1 0 0 160] 0.1"
 			"vaxis" "[0 -1 0 0] 0.1"
@@ -11689,8 +11689,8 @@ world
 		}
 		side
 		{
-			"id" "2758"
-			"plane" "(-976 -3648 0.148083) (-976 -2304 0.148088) (-976 -2304 267.148)"
+			"id" "4509"
+			"plane" "(-976 -2816 0.14808) (-976 -2304 0.148088) (-976 -2304 267.148)"
 			"material" "BRICK/HR_BRICK/INFERNO/BRICK_G1_CHEAP"
 			"uaxis" "[0 1 0 0] 0.1"
 			"vaxis" "[0 0 -1 0] 0.1"
@@ -11700,8 +11700,8 @@ world
 		}
 		side
 		{
-			"id" "2759"
-			"plane" "(-336 -2304 0.148115) (-336 -3648 0.148121) (-336 -3648 267.148)"
+			"id" "4508"
+			"plane" "(-336 -2304 0.148115) (-336 -2816 0.148123) (-336 -2816 267.148)"
 			"material" "BRICK/HR_BRICK/INFERNO/BRICK_G1_CHEAP"
 			"uaxis" "[0 1 0 0] 0.1"
 			"vaxis" "[0 0 -1 0] 0.1"
@@ -11711,7 +11711,7 @@ world
 		}
 		side
 		{
-			"id" "2760"
+			"id" "4507"
 			"plane" "(-976 -2304 0.148096) (-336 -2304 0.1481) (-336 -2304 267.148)"
 			"material" "BRICK/HR_BRICK/INFERNO/BRICK_G1_CHEAP"
 			"uaxis" "[1 0 0 160] 0.1"
@@ -11722,8 +11722,8 @@ world
 		}
 		side
 		{
-			"id" "2761"
-			"plane" "(-336 -3648 0.148104) (-976 -3648 0.148108) (-976 -3648 267.148)"
+			"id" "4506"
+			"plane" "(-336 -2816 0.148104) (-976 -2816 0.148108) (-976 -2816 267.148)"
 			"material" "BRICK/HR_BRICK/INFERNO/BRICK_G1_CHEAP"
 			"uaxis" "[1 0 0 160] 0.1"
 			"vaxis" "[0 0 -1 0] 0.1"
@@ -24138,7 +24138,7 @@ entity
 	"classname" "info_player_terrorist"
 	"angles" "0 0 0"
 	"enabled" "1"
-	"origin" "-352 -3965.44 0"
+	"origin" "-552 -3117.76 4"
 	editor
 	{
 		"color" "220 30 220"
@@ -24899,10 +24899,10 @@ entity
 		side
 		{
 			"id" "2334"
-			"plane" "(-720 -4157.44 288) (-720 -3645.44 288) (304 -3645.44 288)"
+			"plane" "(-976 -3328 288) (-976 -2816 288) (-336 -2816 288)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 10.2422] 0.25"
+			"vaxis" "[0 -1 0 0.0078125] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -24910,10 +24910,10 @@ entity
 		side
 		{
 			"id" "2333"
-			"plane" "(-720 -3645.44 -32) (-720 -4157.44 -32) (304 -4157.44 -32)"
+			"plane" "(-976 -2816 -32) (-976 -3328 -32) (-336 -3328 -32)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 10.2422] 0.25"
+			"vaxis" "[0 -1 0 0.0078125] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -24921,9 +24921,9 @@ entity
 		side
 		{
 			"id" "2332"
-			"plane" "(-720 -4157.44 -32) (-720 -3645.44 -32) (-720 -3645.44 288)"
+			"plane" "(-976 -3328 -32) (-976 -2816 -32) (-976 -2816 288)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 -10.2422] 0.25"
+			"uaxis" "[0 1 0 -0.0078125] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -24932,9 +24932,9 @@ entity
 		side
 		{
 			"id" "2331"
-			"plane" "(304 -3645.44 -32) (304 -4157.44 -32) (304 -4157.44 288)"
+			"plane" "(-336 -2816 -32) (-336 -3328 -32) (-336 -3328 288)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 -10.2422] 0.25"
+			"uaxis" "[0 1 0 -0.0078125] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -24943,7 +24943,7 @@ entity
 		side
 		{
 			"id" "2330"
-			"plane" "(-720 -3645.44 -32) (304 -3645.44 -32) (304 -3645.44 288)"
+			"plane" "(-976 -2816 -32) (-336 -2816 -32) (-336 -2816 288)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -24954,7 +24954,7 @@ entity
 		side
 		{
 			"id" "2329"
-			"plane" "(304 -4157.44 -32) (-720 -4157.44 -32) (-720 -4157.44 288)"
+			"plane" "(-336 -3328 -32) (-976 -3328 -32) (-976 -3328 288)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -25575,7 +25575,7 @@ entity
 	"classname" "info_player_terrorist"
 	"angles" "0 0 0"
 	"enabled" "1"
-	"origin" "-438.111 -3807.68 17"
+	"origin" "-635.111 -2960 4"
 	editor
 	{
 		"color" "220 30 220"
@@ -25590,7 +25590,7 @@ entity
 	"classname" "info_player_terrorist"
 	"angles" "0 0 0"
 	"enabled" "1"
-	"origin" "-269.406 -3936.64 17"
+	"origin" "-466.406 -3088.96 4"
 	editor
 	{
 		"color" "220 30 220"
@@ -25605,7 +25605,7 @@ entity
 	"classname" "info_player_terrorist"
 	"angles" "0 0 0"
 	"enabled" "1"
-	"origin" "-405.348 -4052.09 17"
+	"origin" "-602.348 -3204.41 4"
 	editor
 	{
 		"color" "220 30 220"
@@ -25620,7 +25620,7 @@ entity
 	"classname" "info_player_terrorist"
 	"angles" "0 0 0"
 	"enabled" "1"
-	"origin" "-498.373 -4087.44 17"
+	"origin" "-695.373 -3239.76 4"
 	editor
 	{
 		"color" "220 30 220"
@@ -25635,7 +25635,7 @@ entity
 	"classname" "info_player_terrorist"
 	"angles" "0 0 0"
 	"enabled" "1"
-	"origin" "-591.392 -4038.29 17"
+	"origin" "-788.392 -3190.61 4"
 	editor
 	{
 		"color" "220 30 220"
@@ -25650,7 +25650,7 @@ entity
 	"classname" "info_player_terrorist"
 	"angles" "0 0 0"
 	"enabled" "1"
-	"origin" "-659 -3963.12 17"
+	"origin" "-856 -3115.44 4"
 	editor
 	{
 		"color" "220 30 220"
@@ -25665,7 +25665,7 @@ entity
 	"classname" "info_player_terrorist"
 	"angles" "0 0 0"
 	"enabled" "1"
-	"origin" "-615.667 -3869.48 17"
+	"origin" "-812.667 -3021.8 4"
 	editor
 	{
 		"color" "220 30 220"
@@ -25680,7 +25680,7 @@ entity
 	"classname" "info_player_terrorist"
 	"angles" "0 0 0"
 	"enabled" "1"
-	"origin" "-430.206 -3942.04 17"
+	"origin" "-627.206 -3094.36 4"
 	editor
 	{
 		"color" "220 30 220"
@@ -25695,7 +25695,7 @@ entity
 	"classname" "info_player_terrorist"
 	"angles" "0 0 0"
 	"enabled" "1"
-	"origin" "-527.668 -3973.79 17"
+	"origin" "-724.668 -3126.11 4"
 	editor
 	{
 		"color" "220 30 220"
@@ -25710,7 +25710,7 @@ entity
 	"classname" "info_player_terrorist"
 	"angles" "0 0 0"
 	"enabled" "1"
-	"origin" "-409.413 -3876.67 17"
+	"origin" "-606.413 -3028.99 4"
 	editor
 	{
 		"color" "220 30 220"
