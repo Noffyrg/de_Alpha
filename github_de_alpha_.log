@@ -2344,3 +2344,140 @@ Total triangle count: 6648
 Writing d:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp
 MSG_FILEWRITE - Filesystem was asked to write to 'd:\users\gryffon\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
 20 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading c:\users\noffy\documents\github\de_alpha\github_de_alpha_.vmf
+Map revision 112
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\noffy\documents\github\de_alpha\github_de_alpha_.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (124329 bytes)
+Error! To use model "models/destruction_tanker/destruction_tanker_cab.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/destruction_tanker/destruction_tanker_cab.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 373 texinfos to 250
+Reduced 26 texdatas to 20 (575 bytes to 459)
+Writing c:\users\noffy\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\noffy\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+3 seconds elapsed
+
+
+
+4 threads
+reading c:\users\noffy\documents\github\de_alpha\github_de_alpha_.bsp
+reading c:\users\noffy\documents\github\de_alpha\github_de_alpha_.prt
+ 681 portalclusters
+2179 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 732 visible clusters (0.00%)
+Total clusters visible: 226497
+Average clusters visible: 332
+Building PAS...
+Average clusters audible: 680
+visdatasize:119149  compressed from 119856
+writing c:\users\noffy\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\noffy\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+3 minutes, 20 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading c:\users\noffy\documents\github\de_alpha\github_de_alpha_.bsp
+2254 faces
+954879 square feet [137502656.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2254 patches before subdivision
+54988 patches after subdivision
+18 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2458795, max 838
+transfer lists:  18.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(69634, 62007, 54756)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(11571, 9277, 7348)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2081, 1488, 1052)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(393, 250, 158)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(77, 43, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(15, 8, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0200 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes                328/8192         3936/98304    ( 4.0%) 
+brushsides            2122/81920       16976/655360   ( 2.6%) 
+planes                1028/65536       20560/1310720  ( 1.6%) 
+vertexes              3273/65536       39276/786432   ( 5.0%) 
+nodes                 1338/65536       42816/2097152  ( 2.0%) 
+texinfos               250/12288       18000/884736   ( 2.0%) 
+texdata                 20/4096          640/131072   ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2254/65536      126224/3670016  ( 3.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1051/65536       58856/3670016  ( 1.6%) 
+facebrushes            234/0             468/0        ( 0.0%) 
+facebrushlists        2254/0            9016/0        ( 0.0%) 
+leaves                1352/65536       43264/2097152  ( 2.1%) 
+leaffaces             2571/65536        5142/131072   ( 3.9%) 
+leafbrushes           1040/65536        2080/131072   ( 1.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            15070/512000      60280/2048000  ( 2.9%) 
+edges                 8377/256000      33508/1024000  ( 3.3%) 
+LDR worldlights         18/8192         1800/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            250/32768        2500/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3672/65536        7344/131072   ( 5.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 2/1024          704/360448   ( 0.2%) 
+LDR lightdata         [variable]     3407536/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      119149/16777216 ( 0.7%) 
+entdata               [variable]       13769/393216   ( 3.5%) 
+LDR ambient table     1352/65536        5408/262144   ( 2.1%) 
+HDR ambient table     1352/65536        5408/262144   ( 2.1%) 
+LDR leaf ambient      6638/65536      185864/1835008  (10.1%) 
+HDR leaf ambient      1352/65536       37856/1835008  ( 2.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5252     ( 0.0%) 
+pakfile               [variable]       74462/0        ( 0.0%) 
+physics               [variable]      124329/4194304  ( 3.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 6371
+Writing c:\users\noffy\documents\github\de_alpha\github_de_alpha_.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\noffy\documents\github\de_alpha\github_de_alpha_.bsp', but we don't own that location. Allowing...
+28 seconds elapsed
